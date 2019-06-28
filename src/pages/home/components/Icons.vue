@@ -34,7 +34,7 @@ export default {
         id: '0004',
         imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
         desc: '热门景点'
-      },{
+      }, {
         id: '0005',
         imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
         desc: '热门景点'
@@ -58,7 +58,7 @@ export default {
       const pages = []
       this.iconList.forEach((item, index) => {
         const page = Math.floor(index / 8)
-        if(!pages[page]) {
+        if (!pages[page]) {
           pages[page] = []
         }
         pages[page].push(item)
@@ -71,11 +71,12 @@ export default {
 
 <style lang="stylus" scoped>
   @import '~styles/varibles.styl'
-    @import '~styles/mixins.styl'
+  @import '~styles/mixins.styl'
   .icons >>> .swiper-container
     height 0
     padding-bottom 50%
-    
+  .icons
+    margin-top .1rem
     .icon
       position relative
       overflow hidden
