@@ -47,7 +47,7 @@ export default {
     display flex
     align-items center
   .container >>> .swiper-container
-    overflow inherit 
+    overflow inherit
   .container
     display flex
     flex-direction column
@@ -70,4 +70,3 @@ export default {
         color #fff
         bottom -1rem
 </style>
-
